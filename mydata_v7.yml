@@ -1,0 +1,14 @@
+
+common: &common
+    user: dbuser
+    password: dbpassword
+    
+development: 
+    database: myapp_dev
+    <<: *common
+production: 
+    database: myapp_prod
+    <<: *common
+test: 
+    database: myapp_test
+    <<: *common

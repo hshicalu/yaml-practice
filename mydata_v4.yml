@@ -1,0 +1,18 @@
+
+# names: 
+#     - hicalu
+#     - alex
+# scores: 
+#     - 99
+#     - 21
+
+# names: [hicalu, alex]
+# scores: [99, 21]
+
+# - name: hicalu
+#   score: 99
+# - name: alex
+#   score: 21
+
+- {name: hicalu, score: 99}
+- {name: alex, score: 21}

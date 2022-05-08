@@ -1,0 +1,21 @@
+
+# - &CEO hicalu
+# - *CEO
+# # - &COO alex
+# - &COO john
+# - *COO
+# - *COO
+
+- &hicalu
+  name: hicalu
+  score: 90
+- &alex
+  name: alex
+  score: 20
+  friends:
+    - *hicalu
+- name: john
+  score: 30
+  friends: 
+    - *hicalu
+    - *alex
